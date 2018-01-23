@@ -748,7 +748,7 @@ window.Win10 = {
             content: '<div style="padding: 10px;font-size: 12px">' +
             '<p>支持组件:layer、jquery、animated.css、font-awesome</p>' +
             '<p>尤里2号©版权所有</p>' +
-            '<p>作者邮箱:yuri2peter@qq.com</p>' +
+            '<p>作者邮箱:16847001549@qq.com</p>' +
             '</div>'
         });
     },
