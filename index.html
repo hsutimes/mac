@@ -49,35 +49,42 @@
 <div id="win10">
     <div class="desktop">
         <div id="win10-shortcuts" class="shortcuts-hidden">
-            <div class="shortcut" onclick="Win10.openUrl('http://blog.hsutimes.club','<img class=\'icon\' src=\'./img/icon/computer.png\'/>blog博客')">
+            <div class="shortcut" onclick="Win10.openUrl(
+                'http://blog.hsutimes.club','<img class=\'icon\' src=\'./img/icon/computer.png\'/>blog')">
                 <img class="icon" src="./img/icon/computer.png"/>
-                <div class="title">blog博客</div>
+                <div class="title">blog</div>
             </div>
-            <div class="shortcut" onclick="Win10.openUrl('#','<img class=\'icon\' src=\'./img/icon/trashicon.png\'/>回收站')">
+            <div class="shortcut" onclick="Win10.openUrl(
+                '#','<img class=\'icon\' src=\'./img/icon/trashicon.png\'/>回收站')">
                 <img class="icon" src="./img/icon/trashicon.png"/>
                 <div class="title">回收站</div>
             </div>
-            <div class="shortcut" onclick="Win10.openUrl('win10ui.yuri2.cn/src/doc.php','<img class=\'icon\' src=\'./img/icon/gamecenter.png\'/>GameCenter')">
+            <div class="shortcut" onclick="Win10.openUrl(
+                'win10ui.yuri2.cn/src/doc.php','<img class=\'icon\' src=\'./img/icon/gamecenter.png\'/>GameCenter')">
                 <img class="icon" src="./img/icon/gamecenter.png"/>
                 <div class="title">GameCenter</div>
             </div>
-            <div class="shortcut" onclick="window.open('#')">
+            <div class="shortcut" onclick="Win10.openUrl(
+                'https://yun.baidu.com', '<img class=\'icon\' src=\'./img/icon/icloud.png\'/>iCloud')">
                 <img class="icon" src="./img/icon/icloud.png"/>
                 <div class="title">iCloud</div>
             </div>
-            <div class="shortcut" onclick="Win10.openUrl('https://ditu.amap.com/place/B022F0MW0I','<img class=\'icon\' src=\'./img/icon/maps.png\'/>Map')">
+            <div class="shortcut" onclick="Win10.openUrl(
+                'https://ditu.amap.com/place/B022F0MW0I','<img class=\'icon\' src=\'./img/icon/maps.png\'/>Map')">
                 <img class="icon" src="./img/icon/maps.png"/>
                 <div class="title">地图</div>
             </div>
-            <div class="shortcut" onclick="window.open('#')">
+            <div class="shortcut" onclick="Win10.openUrl('#')">
                 <img class="icon" src="./img/icon/prefapp.png"/>
                 <div class="title">设置</div>
             </div>
-            <div class="shortcut" ondblclick='Win10.openUrl("./login.html","<i class=\"fa fa-user icon black-green\"></i>登录页")'>
+            <div class="shortcut" ondblclick='Win10.openUrl(
+                "./login.html","<i class=\"fa fa-user icon black-green\"></i>登录页")'>
                 <i class="fa fa-user icon black-green"></i>
                 <div class="title">登录页（双击）</div>
             </div>
-            <div class="shortcut" ondblclick='Win10.openUrl("./test.html","<i class=\"fa fa-apple icon black-green\"></i>测试")'>
+            <div class="shortcut" ondblclick='Win10.openUrl(
+                "./test.html","<i class=\"fa fa-apple icon black-green\"></i>测试")'>
                 <i class="fa fa-apple icon black-green"></i>
                 <div class="title">测试</div>
             </div>
@@ -125,7 +132,7 @@
         <div class="dock">
             <ul>
                 <li><span class="dock-tips">finder<span class="arrow"></span></span><a href="#"> <img src="./img/icon/finder.png"></a></li>
-                <li><span class="dock-tips">computer<span class="arrow"></span></span><a onclick="Win10.openUrl('http://win10ui.yuri2.cn','<img class=\'icon\' src=\'./img/icon/computer.png\'/>我的电脑')"> <img src="./img/icon/computer.png"></a></li>
+                <li><span class="dock-tips">computer<span class="arrow"></span></span><a onclick="Win10.openUrl('http://blog.hsutimes.club','<img class=\'icon\' src=\'./img/icon/computer.png\'/>blog')"> <img src="./img/icon/computer.png"></a></li>
                 <li><span class="dock-tips">gamecenter<span class="arrow"></span></span><a href="#"> <img src="./img/icon/gamecenter.png"></a></li>
                 <li><span class="dock-tips">icloud<span class="arrow"></span></span><a href="#"> <img src="./img/icon/icloud.png"></a></li>
                 <li><span class="dock-tips">prefapp<span class="arrow"></span></span><a href="#"> <img src="./img/icon/prefapp.png"></a></li>
@@ -135,9 +142,9 @@
                 <li><span class="dock-tips">imusic<span class="arrow"></span></span><a href="#"> <img src="./img/icon/imusic.png"></a></li>
                 <li><span class="dock-tips">preview<span class="arrow"></span></span><a href="#"> <img src="./img/icon/preview.png"></a></li>
                 <li><span class="dock-tips">mail<span class="arrow"></span></span><a href="#"> <img src="./img/icon/mail.png"></a></li>
-                <li><span class="dock-tips">notes.png<span class="arrow"></span></span><a href="#"> <img src="./img/icon/notes.png"></a></li>
+                <li><span class="dock-tips">notes<span class="arrow"></span></span><a href="#"> <img src="./img/icon/notes.png"></a></li>
                 <li><span class="dock-tips">messages<span class="arrow"></span></span><a href="#"> <img src="./img/icon/messages.png"></a></li>
-                <li><span class="dock-tips">maps<span class="arrow"></span></span><a href="#"> <img src="./img/icon/maps.png"></a></li>
+                <li><span class="dock-tips">maps<span class="arrow"></span></span><a onclick="Win10.openUrl('https://ditu.amap.com','<img class=\'icon\' src=\'./img/icon/maps.png\'>map')"> <img src="./img/icon/maps.png"></a></li>
                 <li><span class="dock-tips">ibooks<span class="arrow"></span></span><a href="#"> <img src="./img/icon/ibooks.png"></a></li>
                 <li><span class="dock-tips">facetime<span class="arrow"></span></span><a href="#"> <img src="./img/icon/facetime.png"></a></li>
                 <li><span class="dock-tips">launchpad<span class="arrow"></span></span><a href="#"> <img src="./img/icon/launchpad.png"></a></li>
